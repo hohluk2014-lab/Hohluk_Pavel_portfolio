@@ -1,0 +1,12 @@
+# Source-only images and local review artifacts
+pic/
+assets/img/photo-*.jpg
+tools/shots/
+tools/_contact-sheet.jpg
+tools/make-placeholders.py
+tools/preview-sheet.py
+tools/shoot.mjs
+
+# Local editors and generated files
+.DS_Store
+Thumbs.db
