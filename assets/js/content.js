@@ -215,6 +215,30 @@ window.PORTFOLIO = {
       title: 'Координационный совет',
       meta: 'Движение Первых, Ленинградская область',
       duration: '3:16'
+    },
+    {
+      poster: 'assets/img/rutube-c1230f1fd466eafb199029c573846008.jpg',
+      rutube: 'https://rutube.ru/video/c1230f1fd466eafb199029c573846008/',
+      title: 'Фильм про ГМТО',
+      meta: 'Репортаж',
+      duration: '7:35',
+      year: 2026
+    },
+    {
+      poster: 'assets/img/rutube-0409e1b52f2646831b9a3630ead95e34.jpg',
+      rutube: 'https://rutube.ru/video/0409e1b52f2646831b9a3630ead95e34/',
+      title: '65 лет Школе №5',
+      meta: 'Репортаж',
+      duration: '2:30',
+      year: 2026
+    },
+    {
+      poster: 'assets/img/rutube-8a6362f70691b14c627f791a19de3736.jpg',
+      rutube: 'https://rutube.ru/video/8a6362f70691b14c627f791a19de3736/',
+      title: 'Региональный этап «Вызов Первых»',
+      meta: 'Репортаж',
+      duration: '1:59',
+      year: 2026
     }
   ]
 };
