@@ -14,7 +14,7 @@ for path in files:
     event_lower = event.lower()
     if 'концерт' in event_lower or 'электропартизаны' in event_lower or 'карбаш' in event_lower:
         meta = 'Концерт'
-    elif 'фестиваль' in event_lower:
+    elif 'фестиваль' in event_lower or path.is_relative_to(roots[0]):
         meta = 'Фестиваль'
     else:
         meta = 'Мероприятие'
