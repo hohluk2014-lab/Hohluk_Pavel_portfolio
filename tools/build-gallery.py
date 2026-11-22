@@ -25,10 +25,11 @@ for path in files:
         year = 2024  # Existing concert collection metadata.
     year_field = f', year: {year}' if year is not None else ''
     rel = path.as_posix()
+    category = 'concerts' if path.is_relative_to(roots[0]) else 'events'
     entries.append(
         f"    {{ src: '{rel}', w: {width}, h: {height},\n"
         f"      title: '{event}', event: '{event}', meta: '{meta}'{year_field},\n"
-        f"      tags: ['reportage'], alt: '{meta}: {event}' }}"
+        f"      tags: ['{category}'], alt: '{meta}: {event}' }}"
     )
 
 block = '  photos: [\n' + ',\n'.join(entries) + '\n  ],'
